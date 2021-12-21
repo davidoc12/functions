@@ -39,6 +39,7 @@ def summarize(
     :param plots_dest:      destination folder of summary plots (relative to artifact_path)
     :param update_dataset:  when the table is a registered dataset update the charts in-place
     """
+    context.logger.info("test test")
     df = table.as_df()
     header = df.columns.values
     extra_data = {}
