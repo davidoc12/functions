@@ -361,14 +361,6 @@ xgb-serving:
   kind: remote
   versions:
     latest: xgb_serving/function.yaml
-xgb-test:
-  categories:
-  - model-test
-  description: Test one or more classifier models against held-out dataset.
-  docfile: xgb_test/xgb_test.ipynb
-  kind: job
-  versions:
-    latest: xgb_test/function.yaml
 xgb-trainer:
   categories:
   - model-prep
