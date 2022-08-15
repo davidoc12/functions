@@ -1,5 +1,0 @@
-mlrun
-sklearn
-matplotlib
-seaborn
-scikit-plot
